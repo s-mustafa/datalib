@@ -1,24 +1,76 @@
-# README
+---
+marp: true
+---
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![bg left:40% 80%](https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg)
 
-Things you may want to cover:
+# **Intro to ruby on rails**
 
-* Ruby version
+_
+```ruby
+Presenter.new(
+  name: "Moustapha Sall",
+  team: "🐼"
+)
+```
 
-* System dependencies
+---
 
-* Configuration
+> Ruby is designed to make programmers happy
 
-* Database creation
+_Yukihiro "Matz" Matsumoto_
 
-* Database initialization
+---
 
-* How to run the test suite
+# Agenda
 
-* Services (job queues, cache servers, search engines, etc.)
+1. Installing ruby with rbenv
+2. Intro to ruby syntax
+3. Getting started with rails: the MVC pattern
+4. Building a "real world" app
 
-* Deployment instructions
+---
+# Installing [rbenv](https://github.com/rbenv/rbenv)
 
-* ...
+### Using homebrew
+```
+brew install rbenv ruby-build
+```
+
+### Then
+```
+rbenv init
+```
+```
+rbenv global 3.2.2
+```
+
+
+---
+
+# Installing ruby and rails
+
+### Install the latest ruby version
+```
+rbenv install 3.2.2
+```
+
+### Install bundler and rails
+```
+gem install bundler rails
+```
+
+---
+
+# Starting the web server
+
+## First make sure that your database is up to date
+```
+$ rails db:setup
+```
+
+## Start the server
+```
+$ bin/dev
+```
+then head to [http://localhost:3000](http://localhost:3000)
