@@ -37,14 +37,14 @@ _Yukihiro "Matz" Matsumoto_
 brew install rbenv ruby-build
 ```
 
-### Using apt (Debian, Ubuntu)
-```
-sudo apt install rbenv
-```
 ### Then
 ```
 rbenv init
 ```
+```
+rbenv global 3.2.2
+```
+
 
 ---
 
