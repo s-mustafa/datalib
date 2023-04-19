@@ -59,3 +59,8 @@ rbenv install 3.2.2
 ```
 gem install bundler rails
 ```
+
+---
+
+# What we will be building?
+![datalib screenshot](screenshot.png)
