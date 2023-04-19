@@ -13,3 +13,6 @@
  *= require_tree .
  *= require_self
  */
+.pattern-bg {
+  background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+}
